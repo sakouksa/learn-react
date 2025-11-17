@@ -1,3 +1,5 @@
+import { Greeting1, Greeting2 } from "./components/Greeting";
+
 import Greeting from "./components/Greeting";
 
 function App() {
@@ -8,7 +10,9 @@ function App() {
       <Greeting />
       <Greeting />
       <Greeting />
-      <Greeting />
+      <hr />
+      <Greeting1 />
+      <Greeting2 />
     </div>
   );
 }
