@@ -1,18 +1,16 @@
-import { Greeting1, Greeting2 } from "./components/Greeting";
-
+import { Category, Product } from "./components/Greeting";
 import Greeting from "./components/Greeting";
+import Profile from "./components/Profile";
+import TestJSX from "./components/TestJSX";
 
 function App() {
   return (
     <div>
       <Greeting />
-      <Greeting />
-      <Greeting />
-      <Greeting />
-      <Greeting />
-      <hr />
-      <Greeting1 />
-      <Greeting2 />
+      <Category />
+      <Product />
+      <Profile />
+      <TestJSX />
     </div>
   );
 }
