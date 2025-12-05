@@ -1,16 +1,10 @@
-import { Category, Product } from "./components/Greeting";
-import Greeting from "./components/Greeting";
-import Profile from "./components/Profile";
-import TestJSX from "./components/TestJSX";
+import TestProps from "./components/Props";
 
 function App() {
   return (
     <div>
-      <Greeting />
-      <Category />
-      <Product />
-      <Profile />
-      <TestJSX />
+      <TestProps h1Description="Hello World" />
+      <TestProps h1Description="Hello React" />
     </div>
   );
 }
