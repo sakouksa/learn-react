@@ -9,12 +9,4 @@ const TestProps: React.FC<TestPrps> = (props) => {
     </div>
   );
 };
-
-
-// function TestProps(props:TestPrps){
-//     <div>
-//         <h1 title="Hello World">{props.h1Description}</h1>
-
-//     </div>
-// }
 export default TestProps;
